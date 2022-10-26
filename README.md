@@ -2,7 +2,9 @@
 
 ## About Notebook
 
-The jupyter notebook contains detailed process of different models(logistic regression, K nearest neighbors, Decision trees, random forests, naive Bayes and support vector machines) compared on MQTT-IOT-IDS2020 dataset. The results are available in CSV files for the comparsion
+The jupyter notebook contains detailed process of different models(logistic regression, K nearest neighbors, Decision trees, random forests, naive Bayes and support vector machines) compared on MQTT-IOT-IDS2020 dataset. The results are available in CSV files for the comparison.
+Decision trees and Random Forests clearly dominate in the results but random forest performs better than Decision trees even when considering time constraint.
+Random forest can be parallelized which reduces its training time to roughly the same as Decision trees. 
 
 ## About Dataset
 
@@ -18,11 +20,18 @@ To handle the class imbalance and loading data into RAM problem, Only a percenta
 3. Uni-flow
 
 *Classes:*
-1. bruteforce   2. normal   3. scan_A     
-4. scan_SU      5. sparta
+1. bruteforce
+2. normal
+3. scan_A     
+4. scan_SU
+5. sparta
 
 ## Libraries used
 
-1. Sklearn    2. Pandas   3. Category Encoders
-4. Random     5. Numpy    6. Matplotlib
+1. Sklearn    
+2. Pandas  
+3. Category Encoders
+4. Random     
+5. Numpy    
+6. Matplotlib
 7. Zipfile
