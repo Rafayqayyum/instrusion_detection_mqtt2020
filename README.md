@@ -18,18 +18,11 @@ To handle the class imbalance and loading data into RAM problem, Only a percenta
 3. Uni-flow
 
 *Classes:*
-1. bruteforce
-2. normal   
-3. scan_A     
-4. scan_SU    
-5. sparta
+1. bruteforce   2. normal   3. scan_A     
+4. scan_SU      5. sparta
 
 ## Libraries used
 
-1. Sklearn
-2. Pandas
-3. Category Encoders
-4. Random
-5. Numpy
-6. Matplotlib
+1. Sklearn    2. Pandas   3. Category Encoders
+4. Random     5. Numpy    6. Matplotlib
 7. Zipfile
