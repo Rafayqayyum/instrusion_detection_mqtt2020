@@ -6,6 +6,10 @@ The jupyter notebook contains detailed process of different models(logistic regr
 Decision trees and Random Forests clearly dominate in the results but random forest performs better than Decision trees even when considering time constraint.
 Random forest can be parallelized which reduces its training time to roughly the same as Decision trees. 
 
+
+There is a script uploaded along with the notebook. The sample csv is provided with the script. Refer to script for help on how to run it.
+**Extract the zip file in the resources folder for the script to work. Github doesn't allow files larger than 100mbs so it had to be compressed**
+
 ## About Dataset
 
 The dataset was obtained from [IEEE dataport](https://ieee-dataport.org/open-access/mqtt-iot-ids2020-mqtt-internet-things-intrusion-detection-dataset). Since the dataset
@@ -14,12 +18,12 @@ Dataset is divided into 3 different types. There are 5 different classes and eac
 They were all read seperately. They were combined and shuffled later.
 To handle the class imbalance and loading data into RAM problem, Only a percentage of random samples were read.
 
-*Types:*
+**Types:**
 1. Packetflow
 2. Bi-flow
 3. Uni-flow
 
-*Classes:*
+**Classes:**
 1. bruteforce
 2. normal
 3. scan_A     
